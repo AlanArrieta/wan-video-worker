@@ -18,3 +18,4 @@ RUN comfy-node-install comfyui-videohelpersuite
 # descomenta la línea siguiente. Si lo haces, vuelve a meter el nodo PatchSageAttentionKJ
 # en el workflow. Por defecto lo dejamos FUERA por robustez en headless.
 # RUN comfy-node-install comfyui-kjnodes && pip install sageattention
+COPY extra_model_paths.yaml /comfyui/extra_model_paths.yaml
