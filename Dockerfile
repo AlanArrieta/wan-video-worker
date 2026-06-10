@@ -9,7 +9,7 @@
 # Alternativa sin Docker local: sube este Dockerfile a un repo de GitHub y usa
 # la integración GitHub de RunPod Serverless (build automático en cada push).
 
-FROM runpod/worker-comfyui:5.1.0-base
+FROM runpod/worker-comfyui:5.8.5-base
 
 # Nodo necesario para entregar video (.mp4). Es el único custom node del workflow limpio.
 RUN comfy-node-install comfyui-videohelpersuite
